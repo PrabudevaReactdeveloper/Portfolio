@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Matemasie&family=Quintessential&display=swap');
+
+
+/* @font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-SemiBold.ttf) format("truetype");
+} */
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-BlackItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@layer components {
+    html {
+        font-family: "Poppins";
+    }
+
+    h1 {
+        @apply text-4xl lg:text-5xl xl:text-6xl font-bold text-TextColor font-sans tracking-wide
+    }
+
+    h3 {
+        @apply text-white font-bold md:text-xl text-base tracking-wider
+    }
+    h4 {
+        @apply text-white font-semibold text-base tracking-wider
+    }
+
+    h5 {
+        @apply text-grayColor tracking-wide text-sm
+    }
+    h6 {
+        @apply text-white text-xs tracking-wide
+    }
+
+    ul {
+        @apply relative space-y-[2px] w-max
+    }
+
+    .progressStyle {
+        @apply w-[0%] opacity-0 group-hover:w-[100%] group-hover:opacity-100 duration-300 border border-[#a993f3]
+    }
+
+    li {
+        @apply text-white text-sm relative tracking-wider cursor-pointer
+    }
+
+    .basicButton {
+        @apply flex flex-col cursor-pointer rounded-sm items-center opacity-95 hover:opacity-100 duration-300 buttonstyle px-2 lg:px-6 py-2 justify-center
+    }
+
+    .buttonstyle {
+        background: linear-gradient(90deg, #a993f3 0%, #7e61e7 100%);
+    }
+
+    .logo {
+        font-family: "Quintessential";
+        font-weight: bold;
+        @apply text-TextColor uppercase lg:text-xl text-sm tracking-wider leading-7 font-bold
+    }
+}
