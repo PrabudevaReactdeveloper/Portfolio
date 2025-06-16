@@ -2,6 +2,31 @@ import React from "react";
 import { css, html, human, javascript, react } from "../Sources";
 import { motion } from "framer-motion";
 export default function Home({ ScrollRef }) {
+  
+  let number="Sundartry"
+ switch (number) {
+  case "Monday":
+    console.log("Monday");
+    
+    break;
+  case "Monday":
+    console.log("Moneeday");
+    
+    break;
+  case "Mondaeey":
+    console.log("Moneeday");
+    
+    break;
+  case "Sunday":
+    console.log("tryrytryryt");
+    
+    break;
+ 
+  default:
+console.log("rytetret ");
+
+    break;
+ }
   return (
     <div ref={ScrollRef} className="w-full  bg-PrimaryColor">
       <div className="lg:max-w-[1280px] m-auto w-full py-16 px-3">

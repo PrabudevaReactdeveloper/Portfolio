@@ -25,9 +25,9 @@ export default function Contact({ ScrollRef }) {
               <div className="rounded-md p-2  bg-SecondaryColor">
                 <img className="w-6 h-6" src={github} />
               </div>
-              <a target="_blank" href={"https://github.com/prabutechiee"}>
+              <a target="_blank" href={"https://github.com/PrabudevaReactdeveloper"}>
                 <h6 className="mt-3 border-b border-dashed hover:text-ActiveColor duration-500 border-b-ActiveColor">
-                  https://github.com/prabutechiee
+                https://github.com/PrabudevaReactdeveloper
                 </h6>
               </a>
             </div>
